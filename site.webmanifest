@@ -1,0 +1,23 @@
+{
+  "name": "Asad Shaikh — Full Stack Developer",
+  "short_name": "Asad Shaikh",
+  "description": "Full Stack Software Developer portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#4338ca",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
