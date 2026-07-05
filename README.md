@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Asad Shaikh — Portfolio
+
+Premium portfolio built with **React**, **Vite**, **Tailwind CSS v4**, and **Framer Motion**.
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # production build → dist/
+npm run preview  # preview production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── App.jsx                 # Page layout — lists all sections
+├── main.jsx                # React entry point
+├── index.css               # Global styles & themes
+├── components/
+│   ├── Section.jsx         # Reusable section wrapper + AnimatedGrid
+│   ├── ThemeProvider.jsx   # Dark/light theme
+│   ├── layout/             # Navbar, Footer, ThemeToggle
+│   ├── sections/           # Hero, About, Services, etc.
+│   └── ui/                 # Button, GlassCard, SectionHeader, etc.
+└── lib/
+    ├── data.js             # All site content (edit this)
+    ├── icons.js            # Lucide icon maps
+    └── animations.js       # Framer Motion variants
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Customize Content
 
-## Learn More
+Edit `src/lib/data.js` for personal info, projects, services, testimonials, and contact links.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact Form Email (Free)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Uses [FormSubmit](https://formsubmit.co/) — **no account, no API keys**. Only your email in `.env`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+cp .env.example .env
+```
 
-## Deploy on Vercel
+```env
+VITE_CONTACT_EMAIL=service.codechain@gmail.com
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Restart: `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**First time only:** FormSubmit sends a confirmation link to that email. Click it once to activate the form. After that, every submission arrives in the same inbox and you can reply directly to the visitor.
+
+## Deploy
+
+Build and deploy the `dist/` folder to any static host (Vercel, Netlify, GitHub Pages, etc.).
