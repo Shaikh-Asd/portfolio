@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none" role="img" aria-label="Asad Shaikh">
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="16" x2="156" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4338ca"/>
+      <stop offset="0.55" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <text
+    x="90"
+    y="118"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="62"
+    font-weight="700"
+    letter-spacing="-2"
+  >AS</text>
+</svg>
