@@ -10,7 +10,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/asadshk20",
   whatsapp: "https://wa.me/9028295792",
   resume: {
-    path: "/Asad Shaikh .pdf",
+    file: "asad-shaikh-resume.pdf",
     fileName: "Asad-Shaikh-Resume.pdf",
   },
 };
@@ -138,28 +138,9 @@ export const skillCategories = [
 ];
 
 export const projects = [
-  {
-    title: "Perfect Management System",
-    description: "Perfect Auto Solution — complete business overview and operations management.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    url: "https://perfectautosolution.in/",
-    theme: "indigo",
-  },
-  {
-    title: "Accounting Software",
-    description: "Comprehensive accounting and inventory management solution for growing businesses.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "CodeIgniter", "MySQL"],
-    url: "https://iqbaldairy.in/",
-    theme: "ocean",
-  },
-  {
-    title: "DairyOne",
-    description:
-      "Next.js dairy & farm management app with real-time dashboard, billing, attendance, salary management, and database optimization.",
-    technologies: ["React", "Next.js", "Node.js", "MySQL", "Tailwind CSS", "Supabase"],
-    url: "https://naveeddairy.in/",
-    theme: "emerald",
-  },
+  
+  
+  
   {
     title: "Qoneqt",
     description:
@@ -175,6 +156,28 @@ export const projects = [
     technologies: ["React", "Golang", "Gin", "Supabase", "Tailwind CSS"],
     url: "https://chuckeet.com/",
     theme: "amber",
+  },
+  {
+    title: "DairyOne",
+    description:
+      "Next.js dairy & farm management app with real-time dashboard, billing, attendance, salary management, and database optimization.",
+    technologies: ["React", "Next.js", "Node.js", "MySQL", "Tailwind CSS", "Supabase"],
+    url: "https://naveeddairy.in/",
+    theme: "emerald",
+  },
+  {
+    title: "Accounting Software",
+    description: "Comprehensive accounting and inventory management solution for growing businesses.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "CodeIgniter", "MySQL"],
+    url: "https://iqbaldairy.in/",
+    theme: "ocean",
+  },
+  {
+    title: "Perfect Management System",
+    description: "Perfect Auto Solution — complete business overview and operations management.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    url: "https://perfectautosolution.in/",
+    theme: "indigo",
   },
 ];
 

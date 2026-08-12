@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { m, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { navLinks, personalInfo } from "@/lib/data";
+import { resumeUrl } from "@/lib/resume";
 import { fadeUp, smoothEase, staggerFast } from "@/lib/animations";
 import { ScrollProgress } from "@/components/ui";
 import { ThemeToggle } from "./ThemeToggle";
@@ -22,7 +23,6 @@ function NavLink({ href, label, onClick }) {
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const resumeUrl = encodeURI(personalInfo.resume.path);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
