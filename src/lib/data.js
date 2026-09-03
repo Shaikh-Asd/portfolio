@@ -179,6 +179,41 @@ export const projects = [
     url: "https://perfectautosolution.in/",
     theme: "indigo",
   },
+  {
+    title: "Abaya Store",
+    description: "Abaya Store — inventory management system for abaya store.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "CodeIgniter", "MySQL"],
+    url: "https://powderblue-woodcock-858415.hostingersite.com/",
+    theme: "purple",
+  },
+  {
+    title: "Mobile Store",
+    description: "Mobile Store — inventory management system for mobile accessories.",
+    technologies: ["Next.js", "Tailwind CSS", "Supabase"],
+    url: "https://mobistock-gules.vercel.app/",
+    theme: "amber",
+  },
+  {
+    title: "Catlog Website",
+    description: "Catlog Website — catlog website for all products and services.",
+    technologies: ["Next.js", "Tailwind CSS", "Supabase"],
+    url: "https://www.codechain.store/",
+    theme: "green",
+  },
+  {
+    title: "Decon Consultants",
+    description: "Decon Consultants — consultancy website for any consultancy services.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://www.deconconsultants.in/",
+    theme: "blue",
+  },
+  {
+    title: "Urban Architecture",
+    description: "Urban Architecture — architecture website for any architecture services.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://urbanarchitecture.co.in/",
+    theme: "red",
+  },
 ];
 
 export const whyWorkWithMe = [
