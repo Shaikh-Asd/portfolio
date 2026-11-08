@@ -161,7 +161,7 @@ export const projects = [
     title: "DairyOne",
     description:
       "Next.js dairy & farm management app with real-time dashboard, billing, attendance, salary management, and database optimization.",
-    technologies: ["React", "Next.js", "Node.js", "MySQL", "Tailwind CSS", "Supabase"],
+    technologies: ["React", "Node.js", "MySQL", "Tailwind CSS"],
     url: "https://naveeddairy.in/",
     theme: "emerald",
   },
@@ -175,7 +175,7 @@ export const projects = [
   {
     title: "Perfect Management System",
     description: "Perfect Auto Solution — complete business overview and operations management.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "CodeIgniter", "MySQL"],
     url: "https://perfectautosolution.in/",
     theme: "indigo",
   },
